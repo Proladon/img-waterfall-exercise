@@ -1,12 +1,8 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png" />
-  <HelloWorld msg="Hello Vue 3 + Vite" />
   <water-flow msg="Hello Vue 3 + Vite" />
-  {{abc}}
 </template>
 
 <script setup>
-import HelloWorld from './components/HelloWorld.vue'
 import WaterFlow from './components/WaterFlow.vue'
 
 
@@ -15,6 +11,9 @@ import WaterFlow from './components/WaterFlow.vue'
 </script>
 
 <style>
+body{
+  position: relative;
+}
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
